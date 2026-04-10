@@ -6,7 +6,9 @@ namespace CyberShield
     {
         static void Main(string[] args)
         {
-            AudioGreetings.SpeechIntro();
+            AudioGreetings.PlayGreeting();
+            Console.WriteLine("Audio playing. Press Enter to exit.");
+            Console.ReadLine();
             UIHelper.DisplayLogo();
             Console.WriteLine("\n Please Enter your name:");
             string name = Console.ReadLine();
