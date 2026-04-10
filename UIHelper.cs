@@ -26,29 +26,16 @@ namespace CyberShield
                  \______/    \__|    \_______/ \________|\__|  \__| \______/ \__|  \__|\______|\________|\________|\_______/       
                                                                                                                    
 
-                                            ¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯
-                                                         A CYBERSECURITY AWARENESS BOT
-                                                        That Helps You Stay Safe Online .          
-                                            ¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯
+                                    ¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯
+                                    ║       Welcome to CyberShield — Your Personal Security Assistant        ║
+                                    ║        Empowering South Africans to stay safe in the digital age.      ║        
+                                    ¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯
          ");
 
             Console.ResetColor();
         }
 
-        /// <summary>
-        /// Displays a personalised text welcome greeting after the audio and ASCII art.
-        /// This satisfies the rubric requirement for a text greeting post-launch.
-        /// </summary>
-        public static void DisplayWelcomeGreeting()
-        {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\n ╔══════════════════════════════════════════════════════════════╗");
-            Console.WriteLine(" ║   Welcome to CyberShield — Your Personal Security Assistant  ║");
-            Console.WriteLine(" ║   Empowering South Africans to stay safe in the digital age. ║");
-            Console.WriteLine(" ╚══════════════════════════════════════════════════════════════╝");
-            Console.ResetColor();
-        }
-
+      
         /// <summary>
         /// Displays the main navigation menu with all available topic options.
         /// </summary>
