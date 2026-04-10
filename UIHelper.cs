@@ -11,21 +11,20 @@ namespace CyberShield
 
 
 
-                                              ██████╗██╗    ██╗██████╗ ███████╗██████╗   
-                                            ██╔════╝╚ ██╗  ██╔╝██╔══██╗██╔════╝██╔══██╗ 
-                                            ██║       ╚████╔╝  ██████╔╝█████╗  ██████╔╝ 
-                                            ██║        ╚██╔╝   ██╔══██╗██╔══╝  ██╔══██╗ 
-                                             ╚██████╗   ██║    ██████╔╝███████╗██║  ██║ 
-                                              ╚═════╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝ 
-                                                  
-");
-
-             Console.ForegroundColor = ConsoleColor.Cyan;
-                       Console.WriteLine("\n\n\n(¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)");
-                        Console.WriteLine("");
-                        Console.WriteLine("          CYBERSECURITY AWARENESS BOTHelping You Stay Safe Online ");
-                        Console.WriteLine("");
-                        Console.WriteLine("(¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)");
+                 $$$$$$\ $$\     $$\ $$$$$$$\  $$$$$$$$\ $$$$$$$\   $$$$$$\  $$\   $$\ $$$$$$\ $$$$$$$$\ $$\       $$$$$$$\        
+                $$  __$$\\$$\   $$  |$$  __$$\ $$  _____|$$  __$$\ $$  __$$\ $$ |  $$ |\_$$  _|$$  _____|$$ |      $$  __$$\       
+                $$ /  \__|\$$\ $$  / $$ |  $$ |$$ |      $$ |  $$ |$$ /  \__|$$ |  $$ |  $$ |  $$ |      $$ |      $$ |  $$ |      
+                $$ |       \$$$$  /  $$$$$$$\ |$$$$$\    $$$$$$$  |\$$$$$$\  $$$$$$$$ |  $$ |  $$$$$\    $$ |      $$ |  $$ |      
+                $$ |        \$$  /   $$  __$$\ $$  __|   $$  __$$<  \____$$\ $$  __$$ |  $$ |  $$  __|   $$ |      $$ |  $$ |      
+                $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |$$\   $$ |$$ |  $$ |  $$ |  $$ |      $$ |      $$ |  $$ |      
+                \$$$$$$  |   $$ |    $$$$$$$  |$$$$$$$$\ $$ |  $$ |\$$$$$$  |$$ |  $$ |$$$$$$\ $$$$$$$$\ $$$$$$$$\ $$$$$$$  |      
+                 \______/    \__|    \_______/ \________|\__|  \__| \______/ \__|  \__|\______|\________|\________|\_______/       
+                                                                                                                   
+                                            (¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)
+                                                            CYBERSECURITY AWARENESS BOT
+                                                            Helping You Stay Safe Online           
+                                            (¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)
+         ");             
 
 
 
@@ -33,11 +32,10 @@ namespace CyberShield
         }
         public static void DispalyMenu()
         {
-            
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
 
             Console.WriteLine("\n\n WELCOME TO CYBERSHIELD AWARENESS BOT ");
-            Console.WriteLine("    1.  Password Safety");
+            Console.WriteLine("\n    1.  Password Safety");
             Console.WriteLine("    2.  What is Phishing?");
             Console.WriteLine("    3.  Safe Browsing");
             Console.WriteLine("    4.  Malware & Ransomware");
