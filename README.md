@@ -1,4 +1,4 @@
-# CyberShield
+<img width="1350" height="599" alt="Screenshot 2026-04-10 180106" src="https://github.com/user-attachments/assets/e053b047-f001-46c7-8c64-c7b9cd2b2820" /># CyberShield
 
 CyberShield is a console-based cybersecurity awareness chatbot built with C# and .NET. It is designed to educate South African citizens on common cybersecurity threats and best practices through an interactive menu-driven interface.
 
