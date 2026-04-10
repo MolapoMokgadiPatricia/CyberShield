@@ -23,7 +23,7 @@ namespace CyberShield
              Console.ForegroundColor = ConsoleColor.Cyan;
                        Console.WriteLine("\n\n\n(¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)");
                         Console.WriteLine("");
-                        Console.WriteLine("          🛡️ CYBERSECURITY AWARENESS BOT 🛡️ \n   Helping You Stay Safe Online ");
+                        Console.WriteLine("          CYBERSECURITY AWARENESS BOTHelping You Stay Safe Online ");
                         Console.WriteLine("");
                         Console.WriteLine("(¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)");
 
@@ -36,7 +36,7 @@ namespace CyberShield
             
             Console.ForegroundColor = ConsoleColor.DarkBlue;
 
-            Console.WriteLine("\n\n 🛡️ WELCOME TO CYBERSHIELD AWARENESS BOT 🛡️");
+            Console.WriteLine("\n\n WELCOME TO CYBERSHIELD AWARENESS BOT ");
             Console.WriteLine("    1.  Password Safety");
             Console.WriteLine("    2.  What is Phishing?");
             Console.WriteLine("    3.  Safe Browsing");
