@@ -15,7 +15,7 @@ namespace CyberShield
 
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.Write("\n CyberShield Bot: ");
+            Console.Write("\n CYBERSHIELD BOT: ");
 
             foreach (char text in message)
             {
@@ -83,7 +83,7 @@ namespace CyberShield
                         break;
 
                     case "9":
-                        Display("Thank You and Goodbye " + userName + " Remember to stay safe online.");
+                        Display(" Thank You and Goodbye " + userName + " Remember to stay safe online.");
                         run = false;
                         break;
 

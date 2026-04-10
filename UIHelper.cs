@@ -20,10 +20,11 @@ namespace CyberShield
                 \$$$$$$  |   $$ |    $$$$$$$  |$$$$$$$$\ $$ |  $$ |\$$$$$$  |$$ |  $$ |$$$$$$\ $$$$$$$$\ $$$$$$$$\ $$$$$$$  |      
                  \______/    \__|    \_______/ \________|\__|  \__| \______/ \__|  \__|\______|\________|\________|\_______/       
                                                                                                                    
-                                            (¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)
-                                                            CYBERSECURITY AWARENESS BOT
-                                                            Helping You Stay Safe Online           
-                                            (¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯)
+
+                                            ¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯
+                                                         A CYBERSECURITY AWARENESS BOT
+                                                        That Helps You Stay Safe Online .          
+                                            ¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯`•.¸¸.•´¯
          ");             
 
 
@@ -34,7 +35,7 @@ namespace CyberShield
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
 
-            Console.WriteLine("\n\n WELCOME TO CYBERSHIELD AWARENESS BOT ");
+            Console.WriteLine("\n\n ¯`•.¸ WELCOME TO CYBERSHIELD AWARENESS BOT ¸.•´¯");
             Console.WriteLine("\n    1.  Password Safety");
             Console.WriteLine("    2.  What is Phishing?");
             Console.WriteLine("    3.  Safe Browsing");
