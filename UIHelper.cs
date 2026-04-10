@@ -35,7 +35,7 @@ namespace CyberShield
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
 
-            Console.WriteLine("\n\n ¯`•.¸ WELCOME TO CYBERSHIELD AWARENESS BOT ¸.•´¯");
+            Console.WriteLine("\n\n ¯`•.¸  WELCOME TO CYBERSHIELD AWARENESS BOT  ¸.•´¯");
             Console.WriteLine("\n    1.  Password Safety");
             Console.WriteLine("    2.  What is Phishing?");
             Console.WriteLine("    3.  Safe Browsing");
