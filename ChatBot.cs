@@ -54,7 +54,7 @@ namespace CyberShield
             {
                 UIHelper.DisplayMenu();
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write(" Choose an option (1-9): ");
+                Console.Write(" Choose an option : ");
                 Console.ResetColor();
 
                 string choice = Console.ReadLine();

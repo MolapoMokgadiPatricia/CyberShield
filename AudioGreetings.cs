@@ -17,7 +17,7 @@ namespace CyberShield
             try
             {
                 SoundPlayer player = new SoundPlayer("Greeting.wav");
-                player.Play();
+                player.PlaySync();
             }
             catch (Exception ex)
             {
