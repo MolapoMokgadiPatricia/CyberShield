@@ -15,9 +15,6 @@ namespace CyberShield
             // Display the CyberShield ASCII logo
             UIHelper.DisplayLogo();
 
-            // Text greeting displayed after audio and ASCII art
-            UIHelper.DisplayWelcomeGreeting();
-
             // Prompt user for their name
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n Please enter your name to get started:");
