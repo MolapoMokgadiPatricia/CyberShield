@@ -2,9 +2,7 @@
 
 namespace CyberShield
 {
-    /// <summary>
     /// Entry point for the CyberShield Cybersecurity Awareness Bot.
-    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
@@ -17,8 +15,8 @@ namespace CyberShield
 
             // Prompt user for their name
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("\n Please enter your name to get started:");
-            Console.Write(" > ");
+            Console.WriteLine("\n Please enter your name: ");
+            Console.Write("  ");
             string name = Console.ReadLine();
 
             // Validate that a name was actually entered

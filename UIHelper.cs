@@ -36,12 +36,11 @@ namespace CyberShield
         }
 
       
-        /// <summary>
+
         /// Displays the main navigation menu with all available topic options.
-        /// </summary>
         public static void DisplayMenu()
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n\n ¯`•.¸ WELCOME TO CYBERSHIELD AWARENESS BOT ¸.•´¯");
             Console.WriteLine(" ┌─────────────────────────────────────────┐");
             Console.WriteLine("    1.  Password Safety");
@@ -57,9 +56,7 @@ namespace CyberShield
             Console.ResetColor();
         }
 
-        /// <summary>
         /// Displays a formatted error message for invalid user input.
-        /// </summary>
         public static void DisplayError(string message)
         {
             Console.ForegroundColor = ConsoleColor.Red;
