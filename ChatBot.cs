@@ -3,28 +3,21 @@ using System.Threading;
 
 namespace CyberShield
 {
-    /// <summary>
+   
     /// Handles all chatbot logic including the main menu, topic responses,
     /// and the free-form casual chat mode.
-    /// </summary>
     internal class ChatBot
     {
         // Stores the name entered by the user at startup
         private string userName;
 
-        /// <summary>
         /// Initialises a new ChatBot instance with the given user name.
-        /// </summary>
-        /// <param name="name">The name of the user interacting with the bot.</param>
         public ChatBot(string name)
         {
             userName = name;
         }
 
-        /// <summary>
         /// Displays a bot message to the console with a typewriter effect.
-        /// </summary>
-        /// <param name="message">The message to display character by character.</param>
         public void Display(string message)
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
@@ -40,14 +33,12 @@ namespace CyberShield
             Console.ResetColor();
         }
 
-        /// <summary>
+
         /// Starts the main menu loop, greets the user by name, and processes their selections.
-        /// </summary>
         public void Start()
         {
             // Personalised greeting using the user's name
-            Display($" Hello, {userName}! I am CyberShield, your personal cybersecurity assistant.");
-            Display(" I am here to help you stay safe online. Please choose a topic from the menu below.");
+            Display($" Hello, {userName}! I am CyberShield, your personal cybersecurity assistant. I am here to help you stay safe online.");
 
             bool run = true;
             while (run)
@@ -71,10 +62,10 @@ namespace CyberShield
                 switch (choice)
                 {
                     case "1":
-                        Display(" When creating a strong password, you should avoid using obvious information that any person could guess easily. Make sure it contains the following: "
-                            + Environment.NewLine + " Letters (UPPERCASE and lowercase), numbers (123 etc.), symbols {!@#$}, e.g. Molapo@21."
-                            + Environment.NewLine + " Never reuse the same password across multiple accounts. If one is breached, all others become vulnerable. A password manager like Bitwarden can help you keep track of unique passwords safely."
-                            + Environment.NewLine + " A strong password should be at least 12 characters long. Passphrases like 'BlueSky$Runs@Night' are both strong and easier to remember than random strings of characters.");
+                        Display(" When creating a safe password. Make sure it contains the following: "
+                            + Environment.NewLine + " USE LONG PASSPHRASES: Create passwords that are 14–20+ characters long, using a mix of random words, numbers, and symbols. These are easier to remember but much harder for computers to brute-force."
+                            + Environment.NewLine + " USE UNIQUE PASSSWORD EVERYTIME: Never reuse passwords across different sites. If one site is breached, attackers will immediately try those credentials elsewhere."
+                            + Environment.NewLine + " UTILIZE PASSWORD MANAGERS: Use tools like 1Password, NordPass, or Bitwarden to generate and store complex, unique passwords for every account.");
                         break;
 
                     case "2":
@@ -127,10 +118,8 @@ namespace CyberShield
             }
         }
 
-        /// <summary>
         /// Runs a free-form chat loop where the user can ask general cybersecurity questions.
         /// Type 'back' at any time to return to the main menu.
-        /// </summary>
         public void CasualChat()
         {
             Display($" Hi {userName}, you can chat with me freely here. Type 'back' to return to the menu.");
