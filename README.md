@@ -76,6 +76,12 @@ The workflow file is located at `.github/workflows/dotnet-desktop.yml`.
 
 ---
 
+## Youtube Link (unlisted)
+
+https://youtu.be/fm8aqABb3Rg?si=xZvOmEm-xtcyaU7a
+
+---
+
 ## License
 
 This project is for educational purposes. No license has been specified.
@@ -83,5 +89,12 @@ This project is for educational purposes. No license has been specified.
 ---
 
 ## Author
+
 MolapoMokgadiPatricia
+
 Developed as a cybersecurity awareness tool targeting South African internet users.
+
+---
+## Reference
+
+Anthropic Claude AI, 2023
